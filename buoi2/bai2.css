@@ -1,0 +1,46 @@
+nav {
+  margin-top: 20px;
+}
+
+nav>a {
+  float: left;
+  top: 0px;
+  margin: 3px;
+  border: 1px solid #ffffff;
+  padding: 2px 4px;
+  height: 20px;
+  text-align: center;
+  color: #ed4190;
+  font-size: 17px;
+  background-color: #ffff80;
+  text-decoration: none;
+  box-shadow: 0px 0px 3px 0px #00000066, 0px 0px 2px 0px #0000004d;
+}
+
+nav>a:hover {
+  color: #fff;
+  background-color: #ed4190;
+}
+
+.search-box {
+  margin: 0;
+  width: unset;
+  padding-top: 3px;
+  display: flex;
+  float: right;
+}
+
+.search-icon,
+.shopping-cart-icon {
+  padding: 2px 4px;
+  min-width: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #cddc39;
+  cursor: pointer;
+  border: 0px;
+}
+
+.shopping-cart-icon {
+  color: #ed4190;
+}
